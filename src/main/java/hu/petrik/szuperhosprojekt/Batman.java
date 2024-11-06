@@ -16,7 +16,7 @@ public class Batman implements Szuperhos,Milliardos{
 
     @Override
     public boolean legyoziE(Szuperhos ellenseg){
-        return mekkoraAzEreje() > ellenseg.mekkoraAzEreje();
+        return this.lelemenyesseg > ellenseg.mekkoraAzEreje();
     }
 
     @Override

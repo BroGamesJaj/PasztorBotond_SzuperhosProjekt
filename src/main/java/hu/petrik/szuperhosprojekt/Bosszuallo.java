@@ -39,7 +39,7 @@ public abstract class Bosszuallo implements Szuperhos{
         if(ellenseg instanceof Bosszuallo){
             return ((Bosszuallo) ellenseg).vanEGyengesege && ellenseg.mekkoraAzEreje() < this.szuperero;
         }
-        return ellenseg.mekkoraAzEreje() * 2 < this.szuperero;
+        return ellenseg.mekkoraAzEreje()*2 <= this.szuperero;
     }
 
     @Override
